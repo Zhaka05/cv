@@ -1,0 +1,106 @@
+body {
+  background-color: #F2FFE9;
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 562.5%; /*100% = 16px = 1em*/
+  /* mdn provided an explanation */
+  font-family: 'Sacramento', cursive;
+  color:#146356;
+  line-height: 2;
+}
+.speedcuber{
+ font-size: 2.5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color:#146356;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#24A19C;
+}
+
+.top-container {
+  background-color: #E7FBBE;
+  padding-top: 100px;
+  position: relative;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 15px auto 15px auto;
+  line-height: 2;
+}
+.middle-container{
+  margin-bottom: 50px;
+}
+.bottom-container{
+  background-color: #91C483;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 3;
+
+
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #e2ff05;
+  font-size: 20px;
+  background: #96CEB4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #146356;
+  text-decoration: none;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+.profile{
+  margin-bottom: 100px;
+}
+.skills{
+  margin: 100px auto 100px auto;
+}
+.contact-me{
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+a{
+  color : #146356;
+  margin: 10px 20px;
+}
+a:hover{
+  color: #e2ff05;
+}
